@@ -1,1 +1,24 @@
-//
+@import "~bootstrap/scss/bootstrap";  
+header {
+  a{
+    text-decoration: none;
+    color: white;
+  }
+}
+main{
+  a{
+    text-decoration: none;
+  }
+  .container{
+    .row
+    {
+      img{
+        width: 600px;
+      }
+      .description{
+        background-color: rgba(173, 228, 247, 0.894);
+      }
+    }
+  }
+}
+

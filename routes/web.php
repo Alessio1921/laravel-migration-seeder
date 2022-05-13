@@ -13,6 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/','HomepageController@index')->name("homepage");
+Route::get('/trains','TrainsController@index')->name("trains");
+Route::get('/today','TrainTodayController@index')->name("today");
+
+
