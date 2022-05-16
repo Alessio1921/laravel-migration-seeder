@@ -13,7 +13,7 @@ class TrainsController extends Controller
     }
 
     public function show($id){
-        $trains = Train::find($id);
+        $trains = Train::findOrFail($id);
         return view('trains.show',compact("trains"));
     }
 
