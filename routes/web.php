@@ -15,6 +15,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/','HomepageController@index')->name("homepage");
 Route::get('/trains','TrainsController@index')->name("trains");
-Route::get('/trains/today','TrainTodayController@index')->name("today");
-
-
+Route::get('/trains/details/{id}','TrainsController@show')->name("trains.show");
+Route::get('/trains/today','TrainsController@today')->name("today");

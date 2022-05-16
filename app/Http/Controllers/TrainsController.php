@@ -12,4 +12,14 @@ class TrainsController extends Controller
         return view('trains.index',compact("trains"));
     }
 
+    public function show($id){
+        $trains = Train::find($id);
+        return view('trains.show',compact("trains"));
+    }
+
+    public function today(){
+        $trains = Train::where ('departure_time', ">=", date("Y/m/d"))->get();
+        return view('today.index',compact("trains"));
+    }
+
 }
