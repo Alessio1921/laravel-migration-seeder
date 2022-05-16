@@ -8,7 +8,7 @@ use App\Train;
 class TrainsController extends Controller
 {
     public function index(){
-        $trains = Train::all();
+        $trains = Train::paginate(15);
         return view('trains.index',compact("trains"));
     }
 
