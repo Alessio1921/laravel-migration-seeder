@@ -1,3 +1,9 @@
+**This project creates a new table called trains and then fills it with faker.**
+<img width="1423" alt="Schermata 2022-06-03 alle 17 11 34" src="https://user-images.githubusercontent.com/95136261/171882559-fd6ca1b6-c0ee-4247-8afd-e93d39d4ba1e.png">
+<img width="1423" alt="Schermata 2022-06-03 alle 17 16 53" src="https://user-images.githubusercontent.com/95136261/171882909-8566cbb0-96c4-4a3c-a5d9-9115a2fa3f99.png">
+
+<img width="1423" alt="Schermata 2022-06-03 alle 17 14 31" src="https://user-images.githubusercontent.com/95136261/171882573-fa5d62bb-c7e6-44df-8d9f-9940d7371e55.png">
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
